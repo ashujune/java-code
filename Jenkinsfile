@@ -13,7 +13,7 @@ pipeline {
           }
           stage("build stages") {
               steps {
-                  println "This is build stage. Here we use mvn clean package command"
+                  println "This is build stage. Here we will use mvn clean package command"
               }
 
           }
